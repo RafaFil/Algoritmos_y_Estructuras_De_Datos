@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestCases
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.031 s <<< FAILURE! - in TestCases
+testcantYvalorStock  Time elapsed: 0.031 s  <<< ERROR!
+java.lang.NullPointerException
+	at TestCases.testcantYvalorStock(TestCases.java:15)
+
