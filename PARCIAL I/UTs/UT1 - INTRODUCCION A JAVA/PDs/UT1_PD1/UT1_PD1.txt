@@ -1,0 +1,68 @@
+PARTE 1:
+
+	EJERCICIO 1:
+
+	No, yo pac.
+	Vos zacata pac.
+	Yo pac.
+	
+	EJERCICIO 2:
+
+	a) sipo ("traqueteo", 13);
+
+	b)
+
+	public class Zumbido {
+		public static void desconcertar (String dirigible) { (6)
+			System.out.println (dirigible); (7)
+			sipo ("ping", -5); (8)
+		}
+		public static void sipo (String membrillo, int flag) { (2) (9)
+			if (flag < 0) { (3) (10)
+	System.out.println (membrillo + " sup"); (11)
+	} 
+			else {
+			System.out.println ("ik"); (4)
+			desconcertar (membrillo); (5)
+			System.out.println ("muaa-ja-ja-ja");
+			}
+	}
+	public static void main (String[] args) {
+		sipo ("traqueteo", 13);		(1)
+		}
+	}
+
+
+PARTE 2:
+
+EJERCICIO 4 (CODIGO CORREGIDO EN SU CORESPONDIENTE PROYECTO)
+
+a) cuando se invoca al metodo constructor y se crea una nueva instancia de alumno se le asigna a nombre el valor null, es decir sin vallor. El error lo detecte porque el IDE al darle ejecutar programa indico el siguiente error:
+	
+	"Exception in thread "main" java.lang.NullPointerException
+	at ut1_pd1ej4.Alumno.getNombreAdmiracion(Alumno.java:18)"
+
+b) El problema es en el for. Recordando que la sintaxis del for es for(inicializacion ; terminacion ; incremento), la terminacion en este caso es i <= cadena.length. Por lo tanto el valor de i incrementaria hasta que . El problema esta en que se queda fuera de rango, pues el ultimo indice de la cadena es el largo - 1 (Empieza a contar en 0). El error lo da el IDE a travez del siguiente mensaje:
+
+	"Exception in thread "main" java.lang.StringIndexOutOfBoundsException: String 	index 	out of range: 18
+	at java.base/java.lang.StringLatin1.charAt(StringLatin1.java:47)"
+
+c) El problema es que el vector tiene largo 8 y por lo tanto su maximo indice es 7. El vector[8] esta fuera de rango. El IDE dice:
+	
+	"Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 8 out 	of bounds for length 8"
+
+d) Inicializa un string[] vacio, luego retorna el primer caracter del string[] que como esta vacio no puede retornar nada. En el IDE:
+
+	"Exception in thread "main" java.lang.NullPointerException"
+
+e)	Intenta castear una clase en otra clase las cuales son incompatibles. En el IDE:
+
+	"Exception in thread "main" java.lang.ClassCastException: class java.lang.Integer 	cannot be cast to class java.lang.String (java.lang.Integer and java.lang.String 	are in module java.base of loader 'bootstrap')"
+
+EJERCICIO 3 y 5:
+
+https://github.com/ucudal/aed-2022-ut1-pd1-ej3-RafaFil
+
+https://github.com/ucudal/aed-2022-ut1-pd1-ej5-RafaFil
+
+

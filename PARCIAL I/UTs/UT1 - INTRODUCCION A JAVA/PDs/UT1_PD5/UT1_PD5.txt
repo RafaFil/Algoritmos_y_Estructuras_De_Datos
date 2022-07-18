@@ -1,0 +1,116 @@
+EJERCICIO 3:
+
+	En palindromo.java
+	Lo que se puede ver es que en el caso de las mayuscula, no se ven afectadas por el codigo, por lo tanto podemos notar como hay mayuscula en la mitad de la oracion. Lo que hace este metodo es hacer otro string que se lee de izquierda a derecha. Por lo tanto se ven signos de puntuacion, mayusculas, etc en lugares donde no deberia haber.
+
+EJERCICIO 4:
+
+	a) SALIDA:
+
+	a + b = 79.5
+	a - b = -52.699997
+	a * b = 885.7399
+	a / b = 0.20272315
+	a % b = 13.4
+
+	b) REVISAR
+
+EJERCICIO 5:
+
+	a) 
+		3 digits before decimal point.
+		2 digits after decimal point.
+	
+	b)
+		Imprime todo porque el metodo println acepta toda la data de salida, entonces el + sencillamente lo que hace es concatenar los valores y luego los imprime
+
+EJERCICIO 6:
+
+	substring: genera un substring
+
+	split: splitea el string en un array, por defecto en funcion de los espacios.
+
+	subSequence: genera un substring dado los indices dados
+
+	trim: elimina los espacios " " del comienzo y el final
+
+	toLowerCase: convierte el string a minuscula
+
+	toUpperCase: convierte el string a mayuscula
+
+	indexOf: devuelve el primer indice en donde aparece un caracter
+
+	lastIndexOf: devuelve el ultimo indice en donde aparece un caracter
+
+	contains: true si el string se encuentra en el string, false en caso contrario
+
+	replace: remplaza todos los char con el char que recive como parametro 
+
+	(METODOS IMPLEMENTADOS EN EL CODIGO)
+
+EJERCICIO 7:
+
+	Los StringBuilder son objetos como los String, pero que pueden ser modificados. Internamente son tratados como arrays de largo dinamico.
+
+	(METODOS IMPLEMENTADOS EN EL CODIGO)
+
+	Constructores: vacio crea un string de largo 0 y capacidad 16, con parametro crea un string de largo definido x el usuario co
+
+	setLength: setea la longitud del string
+
+	ensureCapacity: setea la capacidad minima del string
+
+	append: agrega al stringbuilder lo indicado por parametro
+
+	insert: inserta el string indicado a partir del indice indicado.
+
+	delete: elimina el string entre los indices indicados
+
+	deletCharAt: elimina caracter en el indicie indicado
+
+	reverse: invierte el string
+
+EJERCICIO 8:
+
+	42 (16 por defecto + 26 del CharSequence)
+
+(documentation)
+StringBuilder(CharSequence cs) : Constructs a string builder containing the same characters as the specified CharSequence, plus an extra 16 empty elements trailing the CharSequence.
+
+EJERCICIO 9:
+
+	a) 32
+
+	b) e
+
+	c) hannah.indexOf("b")
+
+EJERCICIO 10:
+
+	3
+
+EJERCICIO 11:
+
+1 eola
+2 e2la
+3 e 2la
+4 e 2laste
+5 e 2am laste
+
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

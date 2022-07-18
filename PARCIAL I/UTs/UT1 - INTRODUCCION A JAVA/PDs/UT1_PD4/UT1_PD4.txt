@@ -1,0 +1,47 @@
+EJERCICIO 1:
+
+	a) x
+	b) y
+	
+	Salida del programa:
+	
+	a.y = 5
+	b.y = 6
+	a.x = 2
+	b.x = 2
+	IdentifyMyParts.x = 2
+
+EJERCICIO 2:
+	
+	Nunca inicializa la instancia de Rectangle
+
+public class SomethingIsWrong {
+    public static void main(String[] args) {
+        Rectangle myRect = new Rectangle();
+        myRect.width = 40;
+        myRect.height = 50;
+        System.out.println("myRect's area is " + myRect.area());
+    }
+}
+
+EJERCICIO 3:
+
+	1) Ninguno.
+
+	2) Lo destruye el garbage collection, proceso automatico
+
+	3)
+	
+	public class NumberHolder { 
+		public int anInt; 
+		public float aFloat; 
+	}
+	
+	public static void main (String[] args){
+		NumberHolder numh = new NumberHolder();
+		numh.anInt = 15;
+		numh.aFloat = 2.0;
+		System.out.println(numh.anInt);
+		System.out.println(numh.aFloat);
+	}
+

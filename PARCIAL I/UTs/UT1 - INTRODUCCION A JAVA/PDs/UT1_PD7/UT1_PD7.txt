@@ -1,0 +1,24 @@
+EJERCICIO 1:
+
+	Los Strings no son comparables (a diferencia de otros lenguajes, como c#), por lo tanto por mas que s valga 1000, nunca va a ser posible compararlos.
+
+
+EJERCICIO 2:
+
+1.- Devuelve true, compara la referencia la cual para ambos es la misma.
+
+2.- Devuelve false, pues s1 y s2 son objetos diferentes con referencias totalmente distintas. esto se debe a que s1 se crea invocando al constructor.
+
+CODIGO CORREGUIDO EJERCICIO 1:
+
+class Main {
+  public static void main(String[] args) {
+    String s = "1";
+    while (s.intern() != "1000") {
+    s += "0";
+    System.out.println(s);
+    }
+
+  }
+}
+
